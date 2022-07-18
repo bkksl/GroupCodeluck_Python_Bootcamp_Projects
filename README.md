@@ -8,6 +8,6 @@ Codeluck Group Members: <br>
 **•Büşra Köksal (<a href="https://github.com/bkksl" target="_blank">bkksl</a>)** <br>
 **•Zeynep Aslan** <br>
 **•Berat Kızıltaş (<a href="https://github.com/Beratkiziltas" target="_blank">Beratkiziltas</a>)** <br>
-**•Tuana Kurşun** <br>
+**•Tuana Kurşun (<a href="https://github.com/soztuanakursun" target="_blank">soztuanakursun</a>)** <br>
 **•Gökçe Çopur (<a href="https://github.com/gkcecpr" target="_blank">gkcecpr</a>)** <br>
 
