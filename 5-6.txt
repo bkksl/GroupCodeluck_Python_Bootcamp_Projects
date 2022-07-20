@@ -1,0 +1,21 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+netflix_data=pd.read_csv("NetflixOriginals.csv",encoding = "ISO-8859-1", engine='python')
+
+netflix_data.drop_duplicates(inplace=True)
+netflix_data.reset_index(drop=True,inplace=True)
+
+
+#5
+Genrelar=netflix_data['Genre'].value_counts()
+print(len(netflix_data['Genre'].value_counts()),"adet Genre kategorisi bulunmaktadır")
+plt.pie(Genrelar, labels=Genrelar.index,shadow=True, startangle=90,autopct='%1.1f%%')
+plt.title("Genre Analizi")
+plt.axis('equal')
+plt.show()
+
+
+#6
+netflix_data["Language"].value_counts().head(3)
