@@ -32,8 +32,8 @@ plt.show()
 
 """# 'Runtime' değeri en yüksek olan ilk 10 film hangileridir? Görselleştiriniz."""
 
-df=data.groupby("Title").agg({"Runtime": "max"}).sort_values(by="Runtime", ascending=False)[0:10]
-runtime = df.reset_index()
+sub_runtime=data.groupby("Title").agg({"Runtime": "max"}).sort_values(by="Runtime", ascending=False)[0:10]
+runtime = sub_runtime.reset_index()
 fig, ax = plt.subplots(figsize=(25,7),dpi=100)
 ax.scatter(y=runtime["Runtime"], x=runtime["Title"], s=75, color='darkred', alpha=0.7)
 sns.lineplot(x=runtime["Title"], y=runtime["Runtime"])
