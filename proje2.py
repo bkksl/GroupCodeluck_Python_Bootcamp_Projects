@@ -139,7 +139,6 @@ sub_runtime = data.groupby(['Title'])[['Runtime']].max()
 best_10_scores_runtime = sub_runtime.nlargest(10,"Runtime")
 best_10_scores_runtime
 
-sub_runtime=data.groupby("Title").agg({"Runtime": "max"}).sort_values(by="Runtime", ascending=False)[0:10]
 runtime = sub_runtime.reset_index()
 fig, ax = plt.subplots(figsize=(25,7),dpi=100)
 ax.scatter(y=runtime["Runtime"], x=runtime["Title"], s=75, color='darkred', alpha=0.7)
