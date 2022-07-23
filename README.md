@@ -8,6 +8,6 @@ Codeluck Group Members: <br>
 **•Ömer Tekin (<a href="https://github.com/omrtekn" target="_blank">omrtekn</a>)** <br>
 **•Zeynep Akkoç (<a href="https://github.com/akkocz17" target="_blank">akkocz17</a>)** <br>
 **•Büşra Köksal (<a href="https://github.com/bkksl" target="_blank">bkksl</a>)** <br>
-**•Zeynep Aslan** <br>
+**•Zeynep Aslan (<a href="https://github.com/za7satellite" target="_blank">za7satellite</a>)** <br>
 **•Tuana Kurşun (<a href="https://github.com/soztuanakursun" target="_blank">soztuanakursun</a>)** <br>
 
