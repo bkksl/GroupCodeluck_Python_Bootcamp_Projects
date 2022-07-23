@@ -34,5 +34,7 @@ plt.show()
 
 df=data.groupby("Title").agg({"Runtime": "max"}).sort_values(by="Runtime", ascending=False)[0:10]
 runtime = df.reset_index()
-sns.lineplot(y=runtime["Title"], x=runtime["Runtime"])
+fig, ax = plt.subplots(figsize=(25,7),dpi=100)
+ax.scatter(y=runtime["Runtime"], x=runtime["Title"], s=75, color='darkred', alpha=0.7)
+sns.lineplot(x=runtime["Title"], y=runtime["Runtime"])
 plt.show()
