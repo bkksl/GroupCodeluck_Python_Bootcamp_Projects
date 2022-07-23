@@ -141,7 +141,7 @@ best_10_scores_runtime
 
 runtime = sub_runtime.reset_index()
 fig, ax = plt.subplots(figsize=(25,7),dpi=100)
-ax.scatter(y=runtime["Runtime"], x=runtime["Title"], s=75, color='darkred', alpha=0.7)
+ax.scatter(y=runtime["Runtime"], x=runtime["Title"], color='black', alpha=0.9)
 sns.lineplot(x=runtime["Title"], y=runtime["Runtime"])
 plt.show()
 
